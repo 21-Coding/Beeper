@@ -1,8 +1,12 @@
 // business logic
-var beepArray = [];
+var beepArrays = [];
 // for loop for 4
 for (var i =0; i < 5; i++  ) {
-  beepArray.push(i);console.log(beepArray);
+  beepArrays.push(i);console.log(beepArrays);
+
+  if (i["1"]) {
+    $("#list-append").append("<li>" + [i] "</li>");
+  }
 }
 
 
