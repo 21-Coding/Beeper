@@ -17,9 +17,9 @@ This application gives a brief showing of the power of JQuery and JavaScript's a
 |If user enters "3", the program returns a string and numbers from 0 to the users inputted number |"3"  |"0,1,2,'I'm sorry, Dave. I'm afraid I can't do that.'"|
 |If user enters "2", the program returns a string and numbers from 0 to the users inputted number|"2" |"0,1,'Boop',3,4" |
 |If user enters "1", the program returns a string and numbers from 0 to the users inputted number |"1" |"0,'Beep',2,3,4" |
-|If user enters "32", the program returns a string  |"32"|"I'm sorry, Dave. I'm afraid I can't do that." |
-|If user enters "21", the program returns a string | "21"|"Boop"|
-|If user enters "13", the program returns a string | "13"|"Beep"|
+|If user enters "32", the program returns a string along with |"32"|"I'm sorry, Dave. I'm afraid I can't do that." |
+|If user enters "21", the program returns a string and numbers from 0 to the users inputted number| "21"|"Boop"|
+|If user enters "13", the program returns a string and numbers from 0 to the users inputted number| "13"|"Beep"|
 
 ### Setup/Installation Requirements
 ##### Zip:
