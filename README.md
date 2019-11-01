@@ -14,10 +14,10 @@ This application gives a brief showing of the power of JQuery and JavaScript's m
 |Behavior|Input  |Output|
 |-----------------------------|--------------------------|:--------------:|
 |The program returns a range of numbers from 0 to the users inputted number  |"4"  |"0,1,2,3,4"  |
-|If user enters "3", The program returns a string and numbers from 0 to the users inputted number |"3"  |"0,1,2,'I'm sorry, Dave. I'm afraid I can't do that.'"
-|If user enters "2", The program returns a string and numbers from 0 to the users inputted number|"2" | |"0,1,'Boop',3,4"
-|If user enters "1", The program returns a string and numbers from 0 to the users inputted number |"1" | |"0,'Beep',2,3,4"
-| || |
+|If user enters "3", the program returns a string and numbers from 0 to the users inputted number |"3"  |"0,1,2,'I'm sorry, Dave. I'm afraid I can't do that.'"
+|If user enters "2", the program returns a string and numbers from 0 to the users inputted number|"2" |"0,1,'Boop',3,4" |
+|If user enters "1", the program returns a string and numbers from 0 to the users inputted number |"1" |"0,'Beep',2,3,4" |
+|If user enters "32", the program returns a string  |"32"|"I'm sorry, Dave. I'm afraid I can't do that." |
 
 ### Setup/Installation Requirements
 ##### Zip:
