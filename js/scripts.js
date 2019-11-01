@@ -5,6 +5,7 @@ function boopsBeep(input){
   var beepArrays = [];
 
   for (var i = 0; i < input + 1; i++) {
+    let results = i.toString();
   console.log(beepArrays);
 
     // if (beepArrays.includes("1")) {
@@ -49,7 +50,7 @@ $(document).ready(function() {
 
     var input = parseInt($("#input").val());
     var beeper = boopsBeep();
-    // console.log(boopsBeep);
+    console.log(beeper);
   });
 
  });
