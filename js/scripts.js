@@ -1,6 +1,6 @@
 // business logic
 // for loop for 4
-function boopsBeep(){
+function boopsBeep(input){
   var newArray = [];
   var beepArrays = [];
 
@@ -10,7 +10,7 @@ function boopsBeep(){
     if (beepArrays.includes("1")) {
       beepArrays.push(newArray);
       $("#list-append").prepend("<li>" + "Beep!" + "</li>");
-
+      console.log(newArray);
 
     }
     else if (beepArrays.includes("2")) {
@@ -24,6 +24,8 @@ function boopsBeep(){
 
 
  }
+ // return beepArrays = [];
+ // console.log(beepArrays);
 }
 
 
