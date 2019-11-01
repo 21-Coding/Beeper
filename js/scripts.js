@@ -1,17 +1,35 @@
 // business logic
-// for loop for 3
 var beepArray = [];
+// for loop for 1
+for (var i =0; i < 2; i++  ) {
+  beepArray.push(i);
+  console.log(beepArray);
+}
+
+
+// for loop for 2
+for (var i =0; i < 3; i++  ) {
+  beepArray.push(i);
+  console.log(beepArray);
+}
+
+// for loop for 3
+
 
 for (var i =0; i < 4; i++  ) {
   beepArray.push(i);
   console.log(beepArray);
 }
 
+
+
 // for loop for 4
-//
-// var beep4 = [];
-//
-// for (var i =0; i < )
+for (var i =0; i < 5; i++  ) {
+  beepArray.push(i);
+  console.log(beepArray);
+}
+
+
 
 
 
