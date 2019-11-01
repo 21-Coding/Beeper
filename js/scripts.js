@@ -24,7 +24,7 @@ function boopsBeep(input){
 
 
  }
- // return beepArrays = [];
+ return beepArrays = [];
  // console.log(beepArrays);
 }
 
