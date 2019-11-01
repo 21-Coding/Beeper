@@ -4,15 +4,14 @@ function boopsBeep(input){
   // var newArray = [];
   let beepArrays = [];
 
-  for (let i = 0; i < 5; i++) {
-    let results = i.toString();
+  for (let i = 0; i < input + 1; i++) {
+    // let results = i.toString();
   // console.log(beepArrays);
 
-    if (results.includes("1")) {
-      beepArrays.push();
-      $("#list-prepend").prepend("<li>" + "Beep!" + "</li>");
-      // console.log(newArray);
-    // //
+    // if (results.includes("1")) {
+    //   // beepArrays.push();
+      // $("#list-prepend").prepend("<li>" + "Beep!" + "</li>");
+
     }
     // else (results.includes("2"))
     //   beepArrays.push();
@@ -24,8 +23,8 @@ function boopsBeep(input){
     //     $("#list-prepend").prepend("<li>" + i + "</li>");
 
 
- }
- return beepArrays = [];
+ // }
+ // return beepArrays = [];
  // console.log(alert(beepArrays.toString()));
  // console.log(beepArrays);
 
