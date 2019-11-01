@@ -7,19 +7,22 @@ function boopsBeep(){
   for (var i =0; i < 5; i++  ) {
     beepArrays.push(i);console.log(beepArrays);
 
-    if (beepArrays.includes("1")) {
+    if (("#input").includes("1")) {
       beepArrays.push(newArray);
-      $("#list-append").prepend("<li>" + i + "</li>");
+      $("#list-append").prepend("<li>" + "Beep!" + "</li>");
+      console.log(newArray);
+
     }
     else if (beepArrays.includes("2")) {
       beepArrays.push(newArray);
-      $("#list-append").prepend("<li>" + i + "</li>");
+      $("#list-prepend").prepend("<li>" + i + "</li>");
 
     }
       else if (beepArrays.includes("3")) {
         beepArrays.push(newArray);
-        $("#list-append").prepend("<li>" + i + "</li>");
+        $("#list-prepend").prepend("<li>" + i + "</li>");
 
+      }
 }
 
 
@@ -42,6 +45,8 @@ $(document).ready(function() {
 
     var input = parseInt($("#input").val());
     var beeper = boopsBeep();
-  })
+    console.log(boopsBeep);
+  });
 
-})
+ });
+};
