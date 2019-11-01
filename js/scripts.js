@@ -13,9 +13,9 @@ function boopsBeep(input){
       $("#list-prepend").prepend("<li>" + "Beep!" + "</li>");
 
     }
-    // else (results.includes("2"))
-    //   beepArrays.push();
-    //   $("#list-prepend").prepend("<li>" + "Boop!" + "</li>");
+    else (results.includes("2"))
+      beepArrays.push();
+      $("#list-prepend").prepend("<li>" + "Boop!" + "</li>");
 }
 
     //   else (beepArrays.includes("3"))
