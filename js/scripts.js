@@ -49,7 +49,7 @@ $(document).ready(function() {
     event.preventDefault();
 
     var input = parseInt($("#input").val());
-    var beeper = boopsBeep();
+    var beeper = boopsBeep(input);
     console.log(beeper);
   });
 
