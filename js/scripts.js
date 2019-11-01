@@ -2,23 +2,23 @@
 // for loop for 4
 function boopsBeep(input){
   // var newArray = [];
-  var beepArrays = [];
+  let beepArrays = [];
 
-  for (var i = 0; i < input + 1; i++) {
+  for (let i = 0; i < 5; i++) {
     let results = i.toString();
-  console.log(beepArrays);
+  // console.log(beepArrays);
 
-    // if (beepArrays.includes("1")) {
-    //   beepArrays.push(newArray);
+    // if (results.includes("1")) {
+    //   beepArrays.push();
     //   $("#list-append").prepend("<li>" + "Beep!" + "</li>");
-    //   console.log(newArray);
-    //
+    //   // console.log(newArray);
+    // //
     // }
-    // else if (beepArrays.includes("2")) {
-    //   beepArrays.push(newArray);
-    //   $("#list-prepend").prepend("<li>" + i + "</li>");
-    //
-    // }
+    // else (results.includes("2"))
+    //   beepArrays.push();
+    //   $("#list-prepend").prepend("<li>" + "Boop!" + "</li>");
+
+
     //   else (beepArrays.includes("3"))
     //     beepArrays.push(newArray);
     //     $("#list-prepend").prepend("<li>" + i + "</li>");
@@ -26,8 +26,9 @@ function boopsBeep(input){
 
  }
  return beepArrays = [];
- console.log(alert(beepArrays.toString()));
+ // console.log(alert(beepArrays.toString()));
  // console.log(beepArrays);
+
 }
 
 
@@ -50,7 +51,7 @@ $(document).ready(function() {
 
     var input = parseInt($("#input").val());
     var beeper = boopsBeep();
-    console.log(beeper);
+    console.log(input);
   });
 
  });
