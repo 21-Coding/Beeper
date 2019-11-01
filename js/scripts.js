@@ -10,7 +10,7 @@ function boopsBeep(input){
 
     if (results.includes("1")) {
       beepArrays.push("Boop!");
-      console.log(beepArrays);
+      console.log("1: "+ beepArrays);
 
 
       // $("#list-prepend").prepend("<li>" + "Beep!" + "</li>");
@@ -18,7 +18,7 @@ function boopsBeep(input){
     }
     else (results.includes("2"))
       beepArrays.push("Beep!");
-      console.log(alert("reached 2"));
+      console.log("2: "+beepArrays);
       // $("#list-prepend").prepend("<li>" + "Boop!" + "</li>");
 }
 
