@@ -9,8 +9,8 @@ function boopsBeep(input){
   // console.log(beepArrays);
 
     if (results.includes("1")) {
-      beepArrays.push("hey");
-      // $("#list-prepend").prepend("<li>" + "Beep!" + "</li>");
+      beepArrays.push();
+      $("#list-prepend").prepend("<li>" + "Beep!" + "</li>");
 
     }
     // else (results.includes("2"))
@@ -24,7 +24,7 @@ function boopsBeep(input){
 
 
  // }
- // return beepArrays = [];
+ return beepArrays = [];
  // console.log(alert(beepArrays.toString()));
  // console.log(beepArrays);
 
