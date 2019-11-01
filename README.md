@@ -6,7 +6,7 @@
 
 ### Description
 
-This application gives a brief showing of the power of JQuery and JavaScript's methods and transitions.
+This application gives a brief showing of the power of JQuery and JavaScript's arrays and looping.
 
 ### Specifications
 
