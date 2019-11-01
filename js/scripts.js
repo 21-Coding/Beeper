@@ -9,13 +9,17 @@ function boopsBeep(input){
   // console.log(beepArrays);
 
     if (results.includes("1")) {
-      beepArrays.push();
-      $("#list-prepend").prepend("<li>" + "Beep!" + "</li>");
+      beepArrays.push("Boop!");
+      console.log(beepArrays);
+
+
+      // $("#list-prepend").prepend("<li>" + "Beep!" + "</li>");
 
     }
     else (results.includes("2"))
-      beepArrays.push();
-      $("#list-prepend").prepend("<li>" + "Boop!" + "</li>");
+      beepArrays.push("Beep!");
+      console.log(alert("reached 2"));
+      // $("#list-prepend").prepend("<li>" + "Boop!" + "</li>");
 }
 
     //   else (beepArrays.includes("3"))
