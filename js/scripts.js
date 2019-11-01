@@ -1,16 +1,16 @@
 // business logic
-var beepArrays = [];
-var newArray = [];
 // for loop for 4
 function boopsBeep(){
+  var newArray = [];
+  var beepArrays = [];
 
   for (var i =0; i < 5; i++  ) {
-    beepArrays.push(i);console.log(beepArrays);
+    beepArrays.push(i);
 
-    if (("#input").includes("1")) {
+    if (beepArrays.includes("1")) {
       beepArrays.push(newArray);
       $("#list-append").prepend("<li>" + "Beep!" + "</li>");
-      console.log(newArray);
+
 
     }
     else if (beepArrays.includes("2")) {
@@ -18,11 +18,12 @@ function boopsBeep(){
       $("#list-prepend").prepend("<li>" + i + "</li>");
 
     }
-      else if (beepArrays.includes("3")) {
+      else (beepArrays.includes("3"))
         beepArrays.push(newArray);
         $("#list-prepend").prepend("<li>" + i + "</li>");
 
-      }
+
+ }
 }
 
 
@@ -49,4 +50,3 @@ $(document).ready(function() {
   });
 
  });
-};
