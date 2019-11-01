@@ -5,7 +5,7 @@ for (var i =0; i < 5; i++  ) {
   beepArrays.push(i);console.log(beepArrays);
 
   if (i["1"]) {
-    $("#list-append").append("<li>" + [i] "</li>");
+    $("#list-append").append("<li>" + i + "</li>");
   }
 }
 
