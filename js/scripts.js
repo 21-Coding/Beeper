@@ -8,12 +8,12 @@ function boopsBeep(input){
     let results = i.toString();
   // console.log(beepArrays);
 
-    // if (results.includes("1")) {
-    //   beepArrays.push();
-    //   $("#list-append").prepend("<li>" + "Beep!" + "</li>");
-    //   // console.log(newArray);
+    if (results.includes("1")) {
+      beepArrays.push();
+      $("#list-prepend").prepend("<li>" + "Beep!" + "</li>");
+      // console.log(newArray);
     // //
-    // }
+    }
     // else (results.includes("2"))
     //   beepArrays.push();
     //   $("#list-prepend").prepend("<li>" + "Boop!" + "</li>");
@@ -51,7 +51,7 @@ $(document).ready(function() {
 
     var input = parseInt($("#input").val());
     var beeper = boopsBeep();
-    console.log(input);
+    console.log(beeper);
   });
 
  });
