@@ -11,7 +11,15 @@ function boopsBeep(){
       beepArrays.push(newArray);
       $("#list-append").prepend("<li>" + i + "</li>");
     }
-  }
+    else if (beepArrays.includes("2")) {
+      beepArrays.push(newArray);
+      $("#list-append").prepend("<li>" + i + "</li>");
+
+    }
+      else if (beepArrays.includes("3")) {
+        beepArrays.push(newArray);
+        $("#list-append").prepend("<li>" + i + "</li>");
+
 }
 
 
