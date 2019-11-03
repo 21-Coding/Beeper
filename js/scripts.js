@@ -1,16 +1,16 @@
 // business logic
-// for loop for 4
+
 function boopsBeep(input){
   // var newArray = [];
   let beepArrays = [];
 
-  for (let i = 0; i < input + 1; i++) {
+  for (let i = 0; i <= input ; i++) {
     let results = i.toString();
   // console.log(beepArrays);
 
     if (results.includes("1")) {
       beepArrays.push("Boop!");
-      console.log("1: "+ beepArrays);
+
 
 
       // $("#list-prepend").prepend("<li>" + "Beep!" + "</li>");
@@ -18,9 +18,9 @@ function boopsBeep(input){
     }
     else (results.includes("2"))
       beepArrays.push("Beep!");
-      console.log("2: "+beepArrays);
+
       // $("#list-prepend").prepend("<li>" + "Boop!" + "</li>");
-}
+    }
 
     //   else (beepArrays.includes("3"))
     //     beepArrays.push(newArray);
@@ -28,7 +28,7 @@ function boopsBeep(input){
 
 
  // }
- return beepArrays = [];
+    return beepArrays;
  // console.log(alert(beepArrays.toString()));
  // console.log(beepArrays);
 
