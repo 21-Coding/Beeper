@@ -20,9 +20,9 @@ function boopsBeep(input){
     return beepArrays;
 }
 
-function listAllOutcome(){
+function listAllOutcome(beepArrays){
   beepArrays.forEach(function(beepArrays) {
-  $("#list-prepend").prepend("<li>" + beepArrays + "</li>");
+  $("ul.list-prepend").prepend("<li>" + beepArrays + "</li>");
     });
   };
 
@@ -37,10 +37,9 @@ $(document).ready(function() {
 
     var input = parseInt($("#input").val());
     var beeper = boopsBeep(input);
-    listAllOutcome(input);
+    listAllOutcome(beeper);
 
-  });
-
+    });
 });
 
 
