@@ -17,17 +17,14 @@ function boopsBeep(input){
 
       }
     }
+    return beepArrays;
 }
 
-
-
-  // $("#list-prepend").prepend("<li>" + "Beep!" + "</li>");
-// $("#list-prepend").prepend("<li>" + "Boop!" + "</li>");
-
-    //     $("#list-prepend").prepend("<li>" + i + "</li>");
-
-
-
+function listAllOutcome(){
+  beepArrays.forEach(function(beepArrays) {
+  $("#list-prepend").prepend("<li>" + beepArrays + "</li>");
+    });
+  };
 
 
 
@@ -37,9 +34,24 @@ $(document).ready(function() {
   $("form#form").submit(function (event){
     event.preventDefault();
 
+
     var input = parseInt($("#input").val());
     var beeper = boopsBeep(input);
-    console.log(beeper);
+    listAllOutcome(input);
+
   });
 
- });
+});
+
+
+
+
+
+
+
+
+
+   // $("#list-prepend").prepend("<li>" + "Beep!" + "</li>");
+ // $("#list-prepend").prepend("<li>" + "Boop!" + "</li>");
+
+     //     $("#list-prepend").prepend("<li>" + i + "</li>");
