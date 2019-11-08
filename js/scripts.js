@@ -12,7 +12,7 @@ function boopsBeep(input){
       } else if (result.includes(1)){
         beepArrays.push('Beep');
       } else {
-        beepArrays.push('');
+        beepArrays.push(i);
         console.log(beepArrays);
 
       }
